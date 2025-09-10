@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nomadiq Travel Destinations</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #a8e6cf, #d0f0fd);
+      color: #033d2c;
+    }
+    header {
+      background: #006d77;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    header h1 span {
+      font-size: 1.5rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+      margin-left: 20px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #a8e6cf;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><span>🌍</span> Nomadiq Travel Destinations</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Destinations</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nomadiq Travel Destinations</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Lora', serif;
+      background: linear-gradient(to right, #A8E6CF, #87CEEB);
+      color: #033d2c;
+    }
+    header {
+      background: #006D77;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.8rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    header h1 span {
+      font-size: 1.5rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+      margin-left: 20px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #A8E6CF;
+    }
+    main {
+      padding: 40px;
+      background: #F5F5DC;
+      text-align: center;
+      border-top: 5px solid #2E7D32;
+    }
+    main h2 {
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nomadiq Travel Destinations</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Lora', serif;
+      background: linear-gradient(to right, #A8E6CF, #87CEEB);
+      color: #033d2c;
+    }
+    header {
+      background: #006D77;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.8rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    header h1 span {
+      font-size: 1.5rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+      margin-left: 20px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #A8E6CF;
+    }
+    .hero {
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: linear-gradient(rgba(0, 109, 119, 0.7), rgba(0, 109, 119, 0.7)),
+                  url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+      color: white;
+      padding: 20px;
+    }
+    .hero h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 2.5rem;
+      margin: 0 0 15px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 700px;
+    }
+    main {
+      padding: 40px;
+      background: #F5F5DC;
+      text-align: center;
+      border-top: 5px solid #2E7D32;
+    }
+    main h2 {
+      font-family: 'Poppins', sans-serif;
+      color: #2E7D32;
+    }
+    main p {
+      font-size: 1.1rem;
+      color: #033d2c;
+      max-width: 600px;
+      margin: 10px auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><span>🌍</span> Nomadiq Travel Destinations</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Destinations</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Explore Sustainable Travel</h2>
+    <p>Embark on meaningful journeys that honor the planet. Discover breathtaking places while leaving a positive footprint for future generations.</p>
+  </section>
+
+  <main>
+    <h2>Discover the World Sustainably</h2>
+    <p>Our mission is to connect you with nature and culture responsibly. Every destination we share is chosen with care for its beauty and its commitment to eco-friendly practices.</p>
+  </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nomadiq Travel Destinations</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Lora', serif;
+      background: linear-gradient(to right, #A8E6CF, #87CEEB);
+      color: #033d2c;
+    }
+    header {
+      background: #006D77;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.8rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    header h1 span {
+      font-size: 1.5rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+      margin-left: 20px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #A8E6CF;
+    }
+    .hero {
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: linear-gradient(rgba(0, 109, 119, 0.7), rgba(0, 109, 119, 0.7)),
+                  url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+      color: white;
+      padding: 20px;
+    }
+    .hero h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 2.5rem;
+      margin: 0 0 15px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 700px;
+    }
+    main {
+      padding: 40px;
+      background: #F5F5DC;
+      text-align: center;
+      border-top: 5px solid #2E7D32;
+    }
+    main h2 {
+      font-family: 'Poppins', sans-serif;
+      color: #2E7D32;
+    }
+    main p {
+      font-size: 1.1rem;
+      color: #033d2c;
+      max-width: 600px;
+      margin: 10px auto;
+    }
+    .about {
+      padding: 60px 20px;
+      background: white;
+      text-align: center;
+    }
+    .about h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 2rem;
+      color: #006D77;
+      margin-bottom: 20px;
+    }
+    .about p {
+      font-size: 1.1rem;
+      max-width: 800px;
+      margin: 0 auto;
+      color: #033d2c;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><span>🌍</span> Nomadiq Travel Destinations</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Destinations</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Explore Sustainable Travel</h2>
+    <p>Embark on meaningful journeys that honor the planet. Discover breathtaking places while leaving a positive footprint for future generations.</p>
+  </section>
+
+  <main>
+    <h2>Discover the World Sustainably</h2>
+    <p>Our mission is to connect you with nature and culture responsibly. Every destination we share is chosen with care for its beauty and its commitment to eco-friendly practices.</p>
+  </main>
+
+  <section class="about">
+    <h2>About Nomadiq Travel Destinations</h2>
+    <p>At Nomadiq Travel Destinations, we believe in exploring the world without compromising its future. Our focus is on eco-friendly travel experiences that celebrate nature, culture, and sustainability. We carefully select destinations and partners that share our vision of protecting the planet while inspiring meaningful journeys.</p>
+  </section>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nomadiq Travel Destinations</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Lora', serif;
+      background: linear-gradient(to right, #A8E6CF, #87CEEB);
+      color: #033d2c;
+    }
+    header {
+      background: #006D77;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.8rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    header h1 span {
+      font-size: 1.5rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+      margin-left: 20px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #A8E6CF;
+    }
+    .hero {
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: linear-gradient(rgba(0, 109, 119, 0.7), rgba(0, 109, 119, 0.7)),
+                  url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+      color: white;
+      padding: 20px;
+    }
+    .hero h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 2.5rem;
+      margin: 0 0 15px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin-bottom: 20px;
+    }
+    .hero .btn {
+      background: #2E7D32;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      padding: 12px 25px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      text-decoration: none;
+    }
+    .hero .btn:hover {
+      background: #1b5e20;
+    }
+    main {
+      padding: 40px;
+      background: #F5F5DC;
+      text-align: center;
+      border-top: 5px solid #2E7D32;
+    }
+    main h2 {
+      font-family: 'Poppins', sans-serif;
+      color: #2E7D32;
+    }
+    main p {
+      font-size: 1.1rem;
+      color: #033d2c;
+      max-width: 600px;
+      margin: 10px auto;
+    }
+    .about {
+      padding: 60px 20px;
+      background: white;
+      text-align: center;
+    }
+    .about h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 2rem;
+      color: #006D77;
+      margin-bottom: 20px;
+    }
+    .about p {
+      font-size: 1.1rem;
+      max-width: 800px;
+      margin: 0 auto 20px;
+      color: #033d2c;
+    }
+    .about .btn {
+      background: #006D77;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      padding: 12px 25px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 15px;
+    }
+    .about .btn:hover {
+      background: #004f56;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><span>🌍</span> Nomadiq Travel Destinations</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Destinations</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Explore Sustainable Travel</h2>
+    <p>Embark on meaningful journeys that honor the planet. Discover breathtaking places while leaving a positive footprint for future generations.</p>
+    <a href="#about" class="btn">Plan Your Trip</a>
+  </section>
+
+  <main>
+    <h2>Discover the World Sustainably</h2>
+    <p>Our mission is to connect you with nature and culture responsibly. Every destination we share is chosen with care for its beauty and its commitment to eco-friendly practices.</p>
+  </main>
+
+  <section class="about" id="about">
+    <h2>About Nomadiq Travel Destinations</h2>
+    <p>At Nomadiq Travel Destinations, we believe in exploring the world without compromising its future. Our focus is on eco-friendly travel experiences that celebrate nature, culture, and sustainability. We carefully select destinations and partners that share our vision of protecting the planet while inspiring meaningful journeys.</p>
+    <a href="#" class="btn">Learn More</a>
+  </section>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nomadiq Travel Destinations</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Lora', serif;
+      background: linear-gradient(to right, #A8E6CF, #87CEEB);
+      color: #033d2c;
+    }
+    header {
+      background: #006D77;
+      color: white;
+      padding: 15px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    header h1 span {
+      font-size: 1.3rem;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+      margin: 0 10px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #A8E6CF;
+    }
+    .hero {
+      height: 70vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: linear-gradient(rgba(0, 109, 119, 0.7), rgba(0, 109, 119, 0.7)),
+                  url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+      color: white;
+      padding: 20px;
+    }
+    .hero h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 2rem;
+      margin: 0 0 15px;
+    }
+    .hero p {
+      font-size: 1rem;
+      max-width: 90%;
+      margin-bottom: 20px;
+    }
+    .hero .btn {
+      background: #2E7D32;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      text-decoration: none;
+    }
+    .hero .btn:hover {
+      background: #1b5e20;
+    }
+    main {
+      padding: 30px 20px;
+      background: #F5F5DC;
+      text-align: center;
+      border-top: 5px solid #2E7D32;
+    }
+    main h2 {
+      font-family: 'Poppins', sans-serif;
+      color: #2E7D32;
+    }
+    main p {
+      font-size: 1rem;
+      color: #033d2c;
+      max-width: 90%;
+      margin: 10px auto;
+    }
+    .about {
+      padding: 40px 20px;
+      background: white;
+      text-align: center;
+    }
+    .about h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.8rem;
+      color: #006D77;
+      margin-bottom: 20px;
+    }
+    .about p {
+      font-size: 1rem;
+      max-width: 90%;
+      margin: 0 auto 20px;
+      color: #033d2c;
+    }
+    .about .btn {
+      background: #006D77;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 15px;
+    }
+    .about .btn:hover {
+      background: #004f56;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* Responsive Styles */
+    @media (min-width: 600px) {
+      header {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+      }
+      nav {
+        margin-top: 0;
+      }
+      .hero h2 {
+        font-size: 2.5rem;
+      }
+      .hero p {
+        font-size: 1.2rem;
+        max-width: 700px;
+      }
+      main p, .about p {
+        max-width: 600px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><span>🌍</span> Nomadiq Travel Destinations</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Destinations</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Explore Sustainable Travel</h2>
+    <p>Embark on meaningful journeys that honor the planet. Discover breathtaking places while leaving a positive footprint for future generations.</p>
+    <a href="#about" class="btn">Plan Your Trip</a>
+  </section>
+
+  <main>
+    <h2>Discover the World Sustainably</h2>
+    <p>Our mission is to connect you with nature and culture responsibly. Every destination we share is chosen with care for its beauty and its commitment to eco-friendly practices.</p>
+  </main>
+
+  <section class="about" id="about">
+    <h2>About Nomadiq Travel Destinations</h2>
+    <p>At Nomadiq Travel Destinations, we believe in exploring the world without compromising its future. Our focus is on eco-friendly travel experiences that celebrate nature, culture, and sustainability. We carefully select destinations and partners that share our vision of protecting the planet while inspiring meaningful journeys.</p>
+    <a href="#" class="btn">Learn More</a>
+  </section>
+</body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nonprofit Landing Page</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      line-height: 1.6;
+      background-color: #000; /* fallback */
+      color: #fff;
+    }
+
+    /* =========================
+       HERO SECTION
+       ========================= */
+    .hero {
+      background: url('8cac78a5-c040-4198-b861-c04cd65016de.png') 
+        center/cover no-repeat;
+      color: #fff;
+      text-align: center;
+      padding: 120px 20px;
+      position: relative;
+    }
+
+    /* Overlay for readability */
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.6); /* dark overlay */
+      z-index: 0;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: 2.8em;
+      font-weight: 700;
+      margin-bottom: 20px;
+      color: #FFD700; /* highlight headline in yellow */
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      font-weight: 600;
+      line-height: 1.6;
+    }
+
+    /* =========================
+       STORY SECTION
+       ========================= */
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .story {
+      background: #111; /* dark gray background */
+      border: 3px solid #FFD700;
+      border-radius: 10px;
+      padding: 30px;
+      color: #fff;
+    }
+
+    .story h2 {
+      color: #FFD700;
+      margin-bottom: 15px;
+      font-weight: 700;
+    }
+
+    /* =========================
+       CTA SECTION
+       ========================= */
+    .cta {
+      text-align: center;
+      background: #FFD700;
+      color: #000;
+      padding: 50px 20px;
+      border-radius: 10px;
+      margin-top: 40px;
+    }
+
+    .cta h2 {
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+
+    .cta p {
+      margin-bottom: 25px;
+      font-weight: 600;
+    }
+
+    .cta button {
+      background: #000;
+      color: #FFD700;
+      border: none;
+      padding: 15px 35px;
+      font-size: 1.1em;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 700;
+      transition: all 0.3s ease;
+    }
+
+    .cta button:hover {
+      background: #FFD700;
+      color: #000;
+      transform: scale(1.05);
+    }
+
+    /* Thank You message (hidden by default) */
+    .thank-you {
+      display: none;
+      font-weight: 700;
+      font-size: 1.2em;
+      margin-top: 20px;
+    }
+
+    /* =========================
+       RESPONSIVE DESIGN
+       ========================= */
+    @media (max-width: 768px) {
+      .hero {
+        padding: 80px 15px;
+      }
+
+      .hero h1 {
+        font-size: 2em;
+      }
+
+      .hero p {
+        font-size: 1em;
+      }
+
+      section {
+        padding: 30px 15px;
+      }
+
+      .cta {
+        padding: 40px 15px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero {
+        padding: 60px 10px;
+      }
+
+      .hero h1 {
+        font-size: 1.5em;
+      }
+
+      .hero p {
+        font-size: 0.9em;
+        line-height: 1.4;
+      }
+
+      .cta button {
+        padding: 12px 25px;
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Step Into Your Power—Lead a Generation That Brings Clean Water, Hope, and Lasting Change to the World</h1>
+      <p>
+        At Charity: Water, every student has the power to create lasting change. 
+        With 100% of public donations funding GPS-tracked water projects, 
+        your support brings clean water, dignity, and opportunity to communities in need—proving that compassion backed by transparency can transform lives.
+      </p>
+    </div>
+  </section>
+
+  <!-- Story Section -->
+  <section class="story">
+    <h2>Our Story</h2>
+    <p>
+      We are dedicated to empowering communities through sustainable programs
+      and resources. Your support helps us reach those in need and build a brighter future.
+    </p>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="cta">
+    <h2>Join Us Today</h2>
+    <p>Be part of the change. Every contribution matters.</p>
+    <button id="donateBtn">Donate Now</button>
+    <div class="thank-you" id="thankYouMessage">💛 Thank you for your support! 💛</div>
+  </section>
+
+  <script>
+    // Grab button and thank-you message
+    const donateBtn = document.getElementById('donateBtn');
+    const thankYouMessage = document.getElementById('thankYouMessage');
+
+    // When button is clicked, hide button and show thank you
+    donateBtn.addEventListener('click', () => {
+      donateBtn.style.display = 'none';
+      thankYouMessage.style.display = 'block';
+    });
+  </script>
+</body>
+</html>
